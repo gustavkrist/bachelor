@@ -1,0 +1,31 @@
+name: bachelor
+channels:
+  - conda-forge
+dependencies:
+  - black
+  - flake8
+  - flake8-bugbear
+  - flake8-pie
+  - flake8-simplify
+  - ipdb
+  - ipykernel
+  - isort
+  - lxml
+  - matplotlib
+  - mypy
+  - nbconvert
+  - neovim
+  - nltk
+  - notebook
+  - numpy
+  - pandas
+  - pip
+  - pip-tools
+  - pyphen
+  - python=3.12
+  - pyupgrade
+  - regex
+  - seaborn
+  - pip:
+    - flake8-typing-imports
+    - pandas-stubs
