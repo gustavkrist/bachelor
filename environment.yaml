@@ -1,7 +1,9 @@
 name: bachelor
 channels:
   - conda-forge
+  - pytorch
 dependencies:
+  - accelerate
   - black
   - flake8
   - flake8-bugbear
@@ -23,9 +25,15 @@ dependencies:
   - pip-tools
   - pyphen
   - python=3.12
+  - pytorch
+  - pytorch-cuda
   - pyupgrade
   - regex
+  - scikit-learn
   - seaborn
+  - tokenizers
   - pip:
+    - evaluate
     - flake8-typing-imports
     - pandas-stubs
+    - types-regex

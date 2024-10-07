@@ -165,3 +165,5 @@ cython_debug/
 data/
 .activate.sh
 .deactivate.sh
+model_checkpoints/
+trained_model/
