@@ -1,0 +1,29 @@
+name: bachelor
+channels:
+  - conda-forge
+dependencies:
+  - datasets=3.0.1
+  - ipdb=0.13.13
+  - ipykernel=6.29.5
+  - matplotlib=3.9.2
+  - mypy=1.12.1
+  - nbconvert=7.16.4
+  - neovim=0.3.1
+  - nltk=3.9.1
+  - notebook=7.2.2
+  - numpy=2.1.2
+  - pandas=2.2.3
+  - pip=24.2
+  - pyphen=0.16.0
+  - python=3.12
+  - pytorch=2.4.1
+  - regex=2024.9.11
+  - ruff=0.7.0
+  - scikit-learn=1.5.2
+  - seaborn=0.13.2
+  - transformers=4.45.2
+  - tokenizers=0.20.1
+  - pip:
+    - evaluate==0.4.3
+    - pandas-stubs==2.2.3.241009
+    - types-regex==2024.9.11.20240912

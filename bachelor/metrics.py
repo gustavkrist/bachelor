@@ -1,6 +1,6 @@
 from collections import Counter
-import nltk  # type: ignore
-import pyphen  # type: ignore
+import nltk
+import pyphen
 import regex as re
 
 

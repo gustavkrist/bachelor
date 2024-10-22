@@ -1,0 +1,20 @@
+name: bachelor
+channels:
+  - conda-forge
+  - nvidia
+  - pytorch
+dependencies:
+  - accelerate=1.0.1
+  - datasets=3.0.1
+  - nltk=3.9.1
+  - pandas=2.2.2
+  - pip=24.2
+  - pyphen=0.16.0
+  - pytorch-cuda=12.1
+  - pytorch=2.4.1
+  - regex=2024.9.11
+  - scikit-learn=1.5.1
+  - tokenizers=0.19.1
+  - transformers=4.40.2
+  - pip:
+    - evaluate=0.4.3
