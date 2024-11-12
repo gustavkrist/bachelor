@@ -167,3 +167,4 @@ data/
 .deactivate.sh
 model_checkpoints/
 trained_model/
+figures/
